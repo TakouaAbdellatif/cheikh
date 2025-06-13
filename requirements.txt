@@ -4,7 +4,6 @@ openAI
 langchain_core.prompts 
 langchain_community.chat_models
 langchain.output_parsers
-langchain_core.prompts
 langchain_core.output_parsers
 pydantic
 langchain_core.runnables

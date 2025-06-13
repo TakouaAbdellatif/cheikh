@@ -1,12 +1,12 @@
 streamlit
 langchain
 openAI
-langchain_community
-langchain_core
-#langchain_core.prompts 
+#langchain_community
+#langchain_core
+langchain_core.prompts 
 langchain_community.chat_models
-#langchain.output_parsers
-#langchain_core.output_parsers
+langchain.output_parsers
+langchain_core.output_parsers
 pydantic
 langgraph
 

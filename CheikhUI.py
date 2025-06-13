@@ -1,5 +1,5 @@
 from langchain_core.prompts import PromptTemplate
-from langchain_community.chat_models import ChatOpenAI
+#from langchain_community.chat_models import ChatOpenAI
 from langchain.output_parsers import PydanticOutputParser
 from langchain_core.prompts import ChatPromptTemplate,FewShotChatMessagePromptTemplate
 from langchain_core.output_parsers import StrOutputParser, JsonOutputParser

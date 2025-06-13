@@ -1,16 +1,19 @@
 streamlit
 langchain
 openAI
-langchain_core.prompts 
+langchain_community
+langchain_core
+#langchain_core.prompts 
 langchain_community.chat_models
-langchain.output_parsers
-langchain_core.output_parsers
+#langchain.output_parsers
+#langchain_core.output_parsers
 pydantic
-langchain_core.runnables
-langchain_core.tools
+langgraph
 
+#langchain_core.runnables
+#langchain_core.tools
 # Using LangChain solution and creact agents
-langgraph.prebuilt
-from langchain_core.pydantic_v1
+#langgraph.prebuilt
+#langchain_core.pydantic_v1
 # app.py
-langchain.chat_models
+#langchain.chat_models

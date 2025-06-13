@@ -1,7 +1,7 @@
 streamlit
 langchain
 openAI
-#langchain-community
+langchain-community
 #langchain_core
 langchain_core.prompts 
 langchain_community.chat_models

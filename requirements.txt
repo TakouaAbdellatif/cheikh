@@ -1,19 +1,9 @@
-streamlit
-langchain
-langchain-community
-openai
-langchain_core
-#langchain_core.prompts 
-langchain_community.chat_models
-#langchain.output_parsers
-#langchain_core.output_parsers
+streamlit>=1.30.0
+langchain>=0.1.17
+langchain-core>=0.1.40
+langchain-community>=0.0.30
+openai>=1.14.0
 pydantic
 langgraph
 
-#langchain_core.runnables
-#langchain_core.tools
-# Using LangChain solution and creact agents
-#langgraph.prebuilt
-#langchain_core.pydantic_v1
-# app.py
-#langchain.chat_models
+

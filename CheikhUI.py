@@ -93,9 +93,13 @@ def get_response(message):
     # You can replace this with your Python chatbot agent
     rep=chatbot.chat(message)
     return rep
-
+def get_history():
+    return chat_conversation
+  
 # Display the response
 if user_input:
     response = get_response(user_input)
+    history=get_history()
     st.text_area("Cheikh:", value=response, height=100, max_chars=None)
+    st.text_area("Cheikh:", value=history, height=100, max_chars=None)
 

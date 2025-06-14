@@ -94,7 +94,7 @@ def get_response(message):
     rep=chatbot.chat(message)
     return rep
 def get_history():
-    return chat_conversation
+    return chatbot.chat_conversation
   
 # Display the response
 if user_input:

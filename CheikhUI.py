@@ -8,7 +8,7 @@ from langchain_core.tools import tool
 
 # Using LangChain solution and creact agents
 from langgraph.prebuilt import create_react_agent
-from IPython.display import Image, display
+#from IPython.display import Image, display
 import getpass
 import os
 from langchain_core.pydantic_v1 import BaseModel, Field
@@ -83,7 +83,7 @@ chatbot = Chatbot(llm,"Rumi")
 
 
 # Title of the app
-st.title("🧠 Simple Chatbot")
+st.title("Simple Chatbot")
 
 # User input
 user_input = st.text_input("You:", "")

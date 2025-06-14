@@ -31,7 +31,7 @@ class Answer(BaseModel):
     """Answers fields."""
 
     cheikh: str = Field(description="The answer of the selected cheikh")
-    disciple: str = Field(description="The same answer as the cheikh one but coming from a young soufie that is murid of the cheikh but uses modern scientific arguments and adapted to modern life.")
+    disciple: str = Field(description="The same answer as the cheikh one but coming from a young soufie that is murid of the cheikh but uses modern scientific arguments and adapted to modern life while keeping in his answer the spiritual values.")
     
 
 parser = JsonOutputParser(pydantic_object=Answer)

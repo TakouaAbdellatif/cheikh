@@ -83,19 +83,19 @@ chatbot = Chatbot(llm,"Rumi")
 
 
 # Title of the app
-st.title("Simple Chatbot")
+st.title("Cheikh chatbot")
 
 # User input
-user_input = st.text_input("You:", "")
+user_input = st.text_input("Ecrire votre question en Français, en Anglais ou en Arabe:", "")
 
 # Placeholder chatbot response logic
 def get_response(message):
     # You can replace this with your Python chatbot agent
-    #chatbot.chat("Et si mes actions ne sont pas reconnus ou récompensés dans ma carriere ?")
-    return f"Echo: {message}"
+    rep=chatbot.chat(message)
+    return rep
 
 # Display the response
 if user_input:
     response = get_response(user_input)
-    st.text_area("Bot:", value=response, height=100, max_chars=None)
+    st.text_area("Cheikh:", value=response, height=100, max_chars=None)
 

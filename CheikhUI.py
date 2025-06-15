@@ -20,7 +20,7 @@ from langchain.chat_models import init_chat_model
 #AIzaSyBs_2tjz1v8u-I3voJlLz5J0-tHAaznzQA
 if not os.environ.get("GOOGLE_API_KEY"):
   #os.environ["GOOGLE_API_KEY"] = getpass.getpass("Enter API key for Google Gemini: ")
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyBs_2tjz1v8u-I3voJlLz5J0-tHAaznzQA"
+    os.environ["GOOGLE_API_KEY"] = "AIzaSyDHnCaa7DGz5pfnt1CG-ZU71UnRL7M2QgM"
 
 
 

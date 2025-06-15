@@ -66,7 +66,7 @@ class Chatbot:
     # `chat` expects a simple string prompt.
     def chat(self, prompt):
         # Append the prompt as a user message to chat conversation.
-        self.chat_conversation.append(('user', prompt))
+        self.chat_conversation.append(('human', prompt))
         
         response = self.chat_chain.invoke({'chat_conversation': self.chat_conversation})
         # Append the chain response as an `ai` message to chat conversation.
@@ -101,5 +101,5 @@ if user_input:
     response = get_response(user_input)
     history=get_history()
     st.text_area("Cheikh:", value=response, height=100, max_chars=None)
-    st.text_area("Cheikh:", value=history, height=100, max_chars=None)
+    #st.text_area("Cheikh:", value=history, height=100, max_chars=None)
 
